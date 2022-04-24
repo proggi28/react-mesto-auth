@@ -29,7 +29,6 @@ export default function Login({ handleSignIn, currentPath }) {
         name="login-form"
         className="form login__form"
         onSubmit={handleSubmit}
-        noValidate
       >
         <input
           name="email"

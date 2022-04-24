@@ -30,7 +30,6 @@ export default function Register({ handleSignUp, currentPath }) {
         name="register-form"
         className="form register__form"
         onSubmit={handleSubmit}
-        noValidate
       >
         <input
           name="email"

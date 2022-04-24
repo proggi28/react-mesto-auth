@@ -5,7 +5,7 @@ export default function HeaderText({ headerEmail, signOut }) {
   return (
     <div className="header__text">
       <p className="header__email">{headerEmail}</p>
-      <Link exact to="/" className="header__link link" onClick={signOut}>
+      <Link to="/" className="header__link link" onClick={signOut}>
         Выйти
       </Link>
     </div>
